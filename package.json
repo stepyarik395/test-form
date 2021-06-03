@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel assets/index.html --no-source-maps --open --public-url /dist",
-    "prod": "parcel build assets/index.html --no-source-maps --no-cache --public-url /dist --dist-dir dist"
+    "dev": "parcel index.html --no-source-maps --open --public-url /dist",
+    "prod": "parcel index.html --no-source-maps --no-cache --public-url /dist --dist-dir dist"
   },
   "author": "",
   "license": "ISC",
